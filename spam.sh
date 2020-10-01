@@ -29,7 +29,7 @@ echo $cy"
 ═══════════════════════════════
              ⤵⤵⤵⤵
 ═══════════════════════════════════════
-[ 1 ] : 🔘 TRACKER IP [ LACAK LOK 🔘         }
+[ 1 ] : 🔘 SPAM WA                🔘         }
 ═══════════════════════════════════════
 [ 2 ] : 🔘 PHISING PROJECT V1     🔘         }
 ═══════════════════════════════════════
@@ -47,9 +47,7 @@ echo $cyan " MENGGINSTALL CUK "
 sleep 30
 pkg install git
 apt install git -y
-cd IP-Tracer
-chmod +x *
-./install
+
 fi
 
 if [ $bro = 2 ] || [ $bro = 2 ]
@@ -59,7 +57,7 @@ echo $cyan " MENGGINSTALL CUK "
 sleep 30
 pkg install git
 pip2 install mechanize
-https://github.com/evait-security/weeman
+git clone hhttps://github.com/evait-security/weeman
 cd weeman
 python2 weeman.py
 fi
