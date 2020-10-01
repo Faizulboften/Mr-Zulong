@@ -29,9 +29,9 @@ echo $cy"
 ═══════════════════════════════
              ⤵⤵⤵⤵
 ═══════════════════════════════════════
-[ 1 ] : 🔘 SPAM CALL [ TELEPONE ] 🔘
+[ 1 ] : 🔘 TRACKER IP [ LACAK LOK 🔘
 ═══════════════════════════════════════
-[ 2 ] : 🔘 SPAM SMS PROJECT       🔘
+[ 2 ] : 🔘 PHISING PROJECT V1     🔘
 ═══════════════════════════════════════
 [ 3 ] :EXIT/PROGRAM 🔴"
       echo '\033[35;1m'
@@ -44,9 +44,10 @@ clear
 echo $cyan " MENGGINSTALL CUK "
 sleep 30
 pkg install git
-git clone https://github.com/BladeKnife/spam-call
-cd spam-call
-python2 call.py
+apt install git -y
+cd IP-Tracer
+chmod +x *
+./install
 fi
 
 if [ $bro = 2 ] || [ $bro = 2 ]
@@ -56,10 +57,9 @@ echo $cyan " MENGGINSTALL CUK "
 sleep 30
 pkg install git
 pip2 install mechanize
-git clone https://github.com/BangDanz/sahur-project
-pip2 install req
-cd sahur-project
-python2 loading.py
+https://github.com/evait-security/weeman
+cd weeman
+python2 weeman.py
 fi
 
 if [ $bro = 3 ] || [ $bro = 3 ]
