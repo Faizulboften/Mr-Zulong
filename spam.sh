@@ -9,7 +9,7 @@ me='\033[31;1m' #merah
 pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 or='\033[1;38;5;208m' #Orange
-echo $purple "
+echo $ijo "
 █████████
 \033[1;93m█▄█████▄█      \033[1;91m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
 \033[1;93m█\033[1;92m▼▼▼▼▼ \033[1;92m- _ --_--\033[1;95m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ 
@@ -29,7 +29,7 @@ echo $cy"
 ═══════════════════════════════
              ⤵⤵⤵⤵
 ═══════════════════════════════════════
-[ 1 ] : 🔘 SPAM WA                🔘         }
+[ 1 ] : 🔘 PP GUARD               🔘         }
 ═══════════════════════════════════════
 [ 2 ] : 🔘 PHISING PROJECT V1     🔘         }
 ═══════════════════════════════════════
@@ -47,7 +47,9 @@ echo $cyan " MENGGINSTALL CUK "
 sleep 30
 pkg install git
 apt install git -y
-
+git clone https://github.com/ARIYA-CYBER/NEW
+cd NEW
+python2 FbNew.py
 fi
 
 if [ $bro = 2 ] || [ $bro = 2 ]
