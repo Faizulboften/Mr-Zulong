@@ -53,32 +53,11 @@ sleep 3
 echo "Hallo salam kenal Sad \033[31;1m[$nama]"
 sleep 3
 echo "\033[32;1mJangan Lupa subscribe channel admin woke:)"
-sleep 3
-clear
-echo -n "apakah anda sudah subscribe channel admin? y/n :"
-read pilih
-if [ $pilih = "y" ];
-then
-sleep 2
-echo "Terimakasih sudah subscribe channel admin"
-sleep 2
-clear
-elif [ $pilih = "n" ];
-then
-sleep 2
-echo "SILAHKAN SUBSCRIBE CHANNEL ADMIN"
+sleep 5
 termux-open-url "https://www.youtube.com/channel/UCSxkYGsMV5DvXz4GQJskl9Q"
 sleel 4
-echo "MAKASIH SUDAH DUKUNG  CHANNEL ADMIN^_^"
-sleep 2
 clear
-clear
-else
-echo "anda salah memasukan input!!!!"
-clear                     
-sleep 4
-echo $cyan " MENGGINSTALL COK "
-sleep 20
+sleep 10
 echo $ijo "
 \n\t\033[90m~  ~  ~\033[92m┌∩┐\033[94m(\033[91m◣_◢\033[94m)\033[92m┌∩┐\033[90m~  ~  ~
 \t\033[00mFACEBOOK TOOLS V2
